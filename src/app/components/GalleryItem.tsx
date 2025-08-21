@@ -1,5 +1,6 @@
+'use client';
+
 import React, { useEffect } from 'react';
-import Glightbox from 'glightbox';
 import './galleryItem.css';
 import Image from 'next/image';
 
@@ -9,8 +10,11 @@ export default function GalleryItem({
   item: { id: number; image: string };
 }) {
   useEffect(() => {
-    new Glightbox({
-      selector: '.gallery-lightbox',
+    // Import Glightbox only in the browser
+    import('glightbox').then(({ default: Glightbox }) => {
+      Glightbox({
+        selector: '.gallery-lightbox',
+      });
     });
   }, []);
 
@@ -27,9 +31,9 @@ export default function GalleryItem({
             height={300}
             style={{
               width: '100%',
-              height: '360px',        // fixed height
-              objectFit: 'cover',     // crop excess, keeps gallery uniform
-              borderRadius: '8px',    // optional: rounded corners
+              height: '360px',       // fixed height for uniform grid
+              objectFit: 'cover',    // crops without stretching
+              borderRadius: '8px',   // optional rounded corners
             }}
             src={item.image}
             alt=""
@@ -40,3 +44,4 @@ export default function GalleryItem({
     </div>
   );
 }
+
