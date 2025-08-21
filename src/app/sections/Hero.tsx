@@ -3,11 +3,12 @@
 import React, { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 
-// 👇 import glightbox dynamically, only on client
+// import glightbox dynamically, only on client
 const GLightbox = dynamic(() => import('glightbox'), { ssr: false });
 
 export default function Hero() {
