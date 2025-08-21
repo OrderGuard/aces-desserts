@@ -54,6 +54,21 @@
   color: #cda45e;
 }
 
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  #hero h1 span{
+    font-size: 3rem;     /* smaller font */
+    line-height: 3.5rem; /* adjust line spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  #hero h1 span{
+    font-size: 4.4rem;
+    line-height: 2.6rem;
+  }
+}
+
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
