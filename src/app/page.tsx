@@ -21,7 +21,6 @@ export default function Home() {
         <Specials />
         <Events />
         <Booking />
-        <Testimonials />
         <Gallery />
         <Chefs />
         <Contact />
