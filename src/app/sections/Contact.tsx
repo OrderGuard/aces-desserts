@@ -101,7 +101,7 @@ export default function Contact() {
                 <textarea
                   className="form-control"
                   name="message"
-                  rows="8"
+                  rows={8}
                   placeholder="Message"
                   required
                 ></textarea>
