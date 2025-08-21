@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import aboutImage from '../../../public/assets/images/klub-kitchen-83-about.PNG';
+import aboutImage from '../../../public/assets/images/kk83-about.png';
 import './about.css';
 
 export default function About() {
