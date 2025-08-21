@@ -18,7 +18,7 @@ export default function MenuItem({
       <img src={item.preview} className="menu-img" alt="" />
       <div className="menu-content">
         <Link href={`/menu/${item.id}`}>{item.name}</Link>
-        <span>${item.price}</span>
+        <span>£{item.price}</span>
       </div>
       <div className="menu-ingredients">{item.ingredients}</div>
     </div>
