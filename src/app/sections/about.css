@@ -34,6 +34,12 @@
   transition: 0.5s;
 }
 
+video {
+  width: 100%;
+  height: 400px; /* set desired height */
+  object-fit: cover; /* fills container, crops if needed */
+}
+
 .about .about-img img {
   max-width: 100%;
   height: auto;
