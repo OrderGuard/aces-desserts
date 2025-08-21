@@ -11,11 +11,10 @@ export default function Footer() {
               <div className="footer-info">
                 <h3>Restaurant</h3>
                 <p>
-                  100 Your Street <br />
-                  State 1234, AUS
+                  83 Eversley Rd, Sketty, <br />Swansea SA2 9DE
                   <br />
                   <br />
-                  <strong>Phone:</strong> +61 1234 5678
+                  <strong>Phone:</strong> 07818030777
                   <br />
                   <strong>Email:</strong> info@example.com
                   <br />

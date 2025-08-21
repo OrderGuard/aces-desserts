@@ -27,7 +27,7 @@ export default function TopBar() {
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
           <i className="bi bi-phone d-flex align-items-center">
-            <span>+1 5589 55488 55</span>
+            <span>07818030777</span>
           </i>
         </div>
 
