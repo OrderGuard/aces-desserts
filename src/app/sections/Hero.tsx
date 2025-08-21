@@ -1,18 +1,22 @@
 'use client';
 
-// import AOS
+import React, { useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import AOS from 'aos';
 
-import React, { useEffect } from 'react';
-import Glightbox from 'glightbox';
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 
+// 👇 import glightbox dynamically, only on client
+const GLightbox = dynamic(() => import('glightbox'), { ssr: false });
+
 export default function Hero() {
   useEffect(() => {
-    new Glightbox({
-      selector: '.glightbox',
-    });
+    const init = async () => {
+      const Glightbox = (await import('glightbox')).default;
+      Glightbox({ selector: '.glightbox' });
+    };
+    init();
   }, []);
 
   useEffect(() => {
@@ -26,6 +30,12 @@ export default function Hero() {
 
   return (
     <section id="hero" className="d-flex align-items-center">
+  {/* ✅ Background Video */}
+      <video autoPlay muted loop playsInline>
+        <source src="/assets/videos/kk83-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       <div
         className="container position-relative text-center text-lg-start"
         data-aos="zoom-in"
@@ -36,28 +46,32 @@ export default function Hero() {
             <h1>
               <span> Swansea &apos;s</span>
             </h1>
-            <h2> <span> Best Street Food Restaurant </span></h2>
+            <h2>
+              <span> Best Street Food Restaurant </span>
+            </h2>
 
             <div className="btns">
               <HeroBtn name="our menu" target="menu" />
               <HeroBtn name="book a table" target="book-a-table" />
             </div>
           </div>
-          <div
+
+          {/*<div
             className="col-lg-4 d-flex align-items-center justify-content-center position-relative"
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-           <a
+            <a
               href="/assets/videos/klub-kitchen-83-video.mp4"
               className="glightbox play-btn"
               data-type="video"
               data-source="local"
+              data-video='{"source": [{"src": "/assets/videos/klub-kitchen-83-video.mp4", "type": "video/mp4"}], "attributes": {"controls": true, "preload": "auto"}}'
             ></a>
-
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
   );
 }
+
