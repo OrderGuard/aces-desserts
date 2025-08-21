@@ -16,13 +16,14 @@ export default function Home() {
       <Hero />
       <main id="main">
         <About />
-        <WhyUs />
+        {/*<WhyUs />*/}
         <Menu />
-        <Specials />
-        <Events />
+        {/*<Specials />*/}
+        {/*<Events />*/}
         <Booking />
+        {/*<Testimonials />*/}
         <Gallery />
-        <Chefs />
+        {/*<Chefs />*/}
         <Contact />
       </main>
     </>
