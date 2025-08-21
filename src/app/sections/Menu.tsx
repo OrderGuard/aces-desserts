@@ -7,11 +7,22 @@ import MenuItem from '../components/MenuItem';
 import { filters } from '../data/data';
 import './menu.css';
 
-export default function Menu() {
-  const [data, setData] = useState([]);
-  const [items, setItems] = useState([]);
+// Define the shape of a menu item
+type MenuItemType = {
+  id: number;
+  name: string;
+  price: number;
+  preview: string;
+  ingredients: string;
+  category: string;
+  description: string;
+};
 
-  const menu = [
+export default function Menu() {
+  const [data, setData] = useState<MenuItemType[]>([]);
+  const [items, setItems] = useState<MenuItemType[]>([]);
+
+  const menu: MenuItemType[] = [
     {
       id: 1,
       name: 'Lobster Bisque',
