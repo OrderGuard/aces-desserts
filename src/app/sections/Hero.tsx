@@ -8,9 +8,6 @@ import 'aos/dist/aos.css';
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 
-// import glightbox dynamically, only on client
-const GLightbox = dynamic(() => import('glightbox'), { ssr: false });
-
 export default function Hero() {
   useEffect(() => {
     const init = async () => {
