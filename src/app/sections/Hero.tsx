@@ -29,10 +29,10 @@ export default function Hero() {
   return (
     <section id="hero" className="d-flex align-items-center">
   {/* ✅ Background Video */}
-      <video autoPlay muted loop playsInline>
+      {/*<video autoPlay muted loop playsInline>
         <source src="/assets/videos/kk83-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video>*/}
 
       <div
         className="container position-relative text-center text-lg-start"
@@ -42,7 +42,7 @@ export default function Hero() {
         <div className="row">
           <div className="col-lg-8">
             <h1>
-              <span> Swansea &apos;s</span>
+              <span> Swansea&apos;s</span>
             </h1>
             <h2>
               <span> Best Street Food Restaurant </span>
