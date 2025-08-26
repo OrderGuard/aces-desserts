@@ -18,7 +18,6 @@ export default function Gallery() {
     {
       id: 3,
       image: '/assets/images/gallery/aces-desserts-3.PNG',
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-3.PNG',
     },
     {
       id: 4,
