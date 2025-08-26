@@ -42,10 +42,10 @@ export default function Hero() {
         <div className="row">
           <div className="col-lg-8">
             <h1>
-              <span> Swansea&apos;s</span>
+              <span>Aces&apos;s Desserts</span>
             </h1>
             <h2>
-              <span> Best Street Food Restaurant </span>
+              <span>To serve up indulgent desserts</span>
             </h2>
 
             <div className="btns">

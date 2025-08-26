@@ -24,29 +24,20 @@ export default function Contact() {
               <div className="address">
                 <i className="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>83 Eversley Rd, Sketty, Swansea SA2 9DE</p>
+                <p>35 High Street, Swansea, SA1 1LG</p>
               </div>
 
               <div className="open-hours">
                 <i className="bi bi-clock"></i>
                 <h4>Open Hours:</h4>
                 <p>
-                  Monday-Tuesday: Closed
+                  Monday-Thursday: 5:30 PM - 11:30 PM
                 </p>
-                  <br />
-
                 <p>
-                  Wednesday-Saturday:
+                  Friday-Sunday: 5:30 PM - 12:00 AM
                   <br />
-                  5:00 PM - 11:00 PM
                 </p>
-                  <br />
 
-                <p>
-                  Sunday:
-                  <br />
-                  11:00 AM - 3:00 PM
-                </p>
               </div>
 
               <div className="email">

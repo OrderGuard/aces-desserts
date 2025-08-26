@@ -16,7 +16,7 @@ export default function About() {
             <div className="about-img">
               {/*<Image src={aboutImage} alt="" />*/}
               <video autoPlay muted loop playsInline>
-                <source src="/assets/videos/kk83-video.mp4" type="video/mp4" />
+                <source src="/assets/videos/aces-desserts-video-1-web.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -28,9 +28,23 @@ export default function About() {
             </h2>
             {/*<p className="italic leading-relaxed tracking-wide my-6 px-4 text-lg text-gray-700">*/}
             <p className="hero-text">
-              Klub Kitchen 83 is your go-to in Sketty,
-              Swansea for bold street food flavours — from loaded fries and tacos to our famous burgers.
-              Freshly made, packed with flavour, and served with a smile.
+              At Aces Desserts Swansea, we believe every sweet tooth deserves the royal treatment.
+              <br />
+              <br />
+              Our mission is simple – to serve up indulgent desserts that turn any day into a special occasion.
+              From loaded waffles and stacked pancakes to creamy milkshakes, freshly baked cookie dough,
+              and irresistible sundaes, we put flavour and fun at the heart of everything we do.
+
+              <br />
+              <br />
+              Located right here in Swansea, we’ve created a spot where families, friends,
+              and dessert lovers can come together to enjoy treats that are as exciting as they are delicious.
+              Whether you’re dining in, grabbing a takeaway, or ordering straight to your door,
+              we’re here to deliver desserts worth dealing out.
+
+              <br />
+              <br />
+              Because at Aces, every dessert is a winning hand.
             </p>
 
           </div>

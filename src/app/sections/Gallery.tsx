@@ -9,35 +9,36 @@ export default function Gallery() {
   const images = [
     {
       id: 1,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-1.PNG',
+      image: '/assets/images/gallery/aces-desserts-1.PNG',
     },
     {
       id: 2,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-2.PNG',
+      image: '/assets/images/gallery/aces-desserts-2.PNG',
     },
     {
       id: 3,
+      image: '/assets/images/gallery/aces-desserts-3.PNG',
       image: '/assets/images/gallery/klub-kitchen-83-gallery-3.PNG',
     },
     {
       id: 4,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-4.PNG',
+      image: '/assets/images/gallery/aces-desserts-4.PNG',
     },
     {
       id: 5,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-5.PNG',
+      image: '/assets/images/gallery/aces-desserts-5.PNG',
     },
     {
       id: 6,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-6.PNG',
+      image: '/assets/images/gallery/aces-desserts-6.PNG',
     },
     {
       id: 7,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-7.PNG',
+      image: '/assets/images/gallery/aces-desserts-7.PNG',
     },
     {
       id: 8,
-      image: '/assets/images/gallery/klub-kitchen-83-gallery-8.PNG',
+      image: '/assets/images/gallery/aces-desserts-3.PNG',
     },
   ];
 

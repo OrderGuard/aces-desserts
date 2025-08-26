@@ -11,10 +11,10 @@ export default function Footer() {
               <div className="footer-info">
                 <h3>Restaurant</h3>
                 <p>
-                  83 Eversley Rd, Sketty, <br />Swansea SA2 9DE
+                  35 High Street, Swansea, SA1 1LG
                   <br />
                   <br />
-                  <strong>Phone:</strong> 07818030777
+                  <strong>Phone:</strong> 01792464318
                   <br />
                   <strong>Email:</strong> info@example.com
                   <br />

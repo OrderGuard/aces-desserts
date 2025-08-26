@@ -36,7 +36,7 @@ export default function Header() {
         {/* Uncomment below if you prefer to use an image logo  */}
          <Link href="/" className="logo me-auto me-lg-0">
             <Image
-              src="/assets/images/klub-kitchen-83-logo-white.PNG"
+              src="/assets/images/aces-desserts.jpeg"
               alt="Upland Logo"
               width={150}
               height={150} // Set an appropriate height to avoid layout shift
